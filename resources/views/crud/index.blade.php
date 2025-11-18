@@ -4,7 +4,8 @@
 
 @section('content')
 
-<!-- 🔥 Hero kép a CRUD oldal tetejére -->
+{{-- CRUD nézet frissítve: kép hozzáadva --}}
+
 <div style="
     background-image: url('{{ asset('editorial/images/crud.jpg') }}');
     background-size: cover;
