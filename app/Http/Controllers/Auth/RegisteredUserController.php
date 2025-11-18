@@ -14,6 +14,12 @@ use Illuminate\View\View;
 
 class RegisteredUserController extends Controller
 {
+
+    // ----------------------------------------------------------
+// AUTENTIKÁCIÓS RÉSZ – KÉSZÍTETTE: Németh Ildikó
+// Feladat: user/admin szerepkörök kezelése
+// ----------------------------------------------------------
+
     /**
      * Display the registration view.
      */

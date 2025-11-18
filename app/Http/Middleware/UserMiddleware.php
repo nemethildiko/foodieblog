@@ -6,6 +6,12 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+// ----------------------------------------------------------
+// AUTENTIKÁCIÓS RÉSZ – KÉSZÍTETTE: Németh Ildikó
+// Feladat: user/admin szerepkörök kezelése
+// ----------------------------------------------------------
+
+
 class UserMiddleware
 {
     public function handle(Request $request, Closure $next): Response
