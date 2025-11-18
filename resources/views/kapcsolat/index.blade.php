@@ -3,6 +3,11 @@
 @section('title', 'Kapcsolat')
 
 @section('content')
+
+<img src="/editorial/images/kapcsolat.jpg"
+     alt="Kapcsolat kép"
+     class="img-fluid rounded mb-4">
+
     <h1 class="mb-4">📩 Kapcsolat</h1>
 
     <form method="POST" action="{{ route('kapcsolat.store') }}" class="col-md-6">
