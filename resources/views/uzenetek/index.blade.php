@@ -3,6 +3,9 @@
 @section('title', 'Üzenetek')
 
 @section('content')
+
+{{-- Üzenetek oldal frissítve: leírás hozzáadva --}}
+    <p class="text-muted">Itt tekintheted meg a beküldött üzeneteket, érkezési sorrendben.</p>
     <h1 class="mb-4">📬 Beérkezett üzenetek</h1>
 
     <table class="table table-striped table-bordered">
