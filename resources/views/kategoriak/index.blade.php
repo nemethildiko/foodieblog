@@ -1,3 +1,6 @@
+
+{{-- Kategóriák nézet – készítette: Mészáros Eszter --}}
+
 @extends('layouts.main')
 
 @section('content')

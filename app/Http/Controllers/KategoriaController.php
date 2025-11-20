@@ -1,4 +1,5 @@
 <?php
+// Kategóriák kilistázása – készítette: Mészáros Eszter
 
 namespace App\Http\Controllers;
 
