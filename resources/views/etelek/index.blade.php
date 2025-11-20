@@ -1,11 +1,12 @@
-@extends('layouts.main') {{-- ez a te sablonod neve --}}
+@extends('layouts.main')
 
 @section('content')
 
 
 @section('content')
 
-<!-- HERO SZEKCIÓ HÁTTÉRKÉPPEL -->
+{{-- Nézet: Ételek megjelenítése – készítette: Mészáros Eszter --}}
+
 <div style="
     background-image: url('{{ asset('editorial/images/paprika.jpg') }}');
     background-size: cover;
