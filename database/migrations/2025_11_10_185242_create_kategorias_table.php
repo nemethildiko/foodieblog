@@ -1,4 +1,5 @@
 <?php
+// Készítette: Mészáros Eszter (modell struktúra)
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

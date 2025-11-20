@@ -1,11 +1,12 @@
 <?php
+// Készítette: Mészáros Eszter (modell struktúra)
 
 namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 class Kategoria extends Model
 {
-    protected $table = 'kategorias'; 
+    protected $table = 'kategorias';
 
     protected $fillable = ['nev'];
 

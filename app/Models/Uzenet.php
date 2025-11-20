@@ -1,4 +1,5 @@
 <?php
+// Készítette: Mészáros Eszter (modell struktúra)
 
 namespace App\Models;
 
