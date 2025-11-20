@@ -1,3 +1,6 @@
+
+{{-- Kapcsolat oldal nézet - a felület kialakítása: Németh Ildikó --}}
+
 @extends('layouts.main')
 
 @section('title', 'Kapcsolat')
