@@ -1,4 +1,5 @@
 <?php
+// Hozzávalók adatainak megjelenítése – készítette: Mészáros Eszter
 
 namespace App\Http\Controllers;
 
