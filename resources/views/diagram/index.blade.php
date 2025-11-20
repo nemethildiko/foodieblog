@@ -1,3 +1,6 @@
+
+{{-- Diagram megjelenítés (Chart.js) - Németh Ildikó --}}
+
 @extends('layouts.main')
 
 @section('title', 'Diagram')

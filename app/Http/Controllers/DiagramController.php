@@ -1,4 +1,5 @@
 <?php
+// Diagram oldal logikája és adatlekérése - Németh Ildikó
 
 namespace App\Http\Controllers;
 
