@@ -1,4 +1,5 @@
 <?php
+// Használt alapanyagok logika – készítette: Mészáros Eszter
 
 namespace App\Http\Controllers;
 

@@ -1,3 +1,5 @@
+{{-- Használt alapanyagok nézet – készítette: Mészáros Eszter --}}
+
 @extends('layouts.main')
 
 @section('content')
