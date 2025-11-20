@@ -1,3 +1,6 @@
+{{-- Layout és navigáció kialakítása - Németh Ildikó --}}
+
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
