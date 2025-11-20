@@ -3,6 +3,7 @@
 @section('title', 'Ételek CRUD')
 
 @section('content')
+{{-- CRUD listaoldal fejlesztése - Németh Ildikó --}}
 
 {{-- CRUD nézet frissítve: kép hozzáadva --}}
 

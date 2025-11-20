@@ -1,4 +1,5 @@
 <?php
+// CRUD funkció (Create, Read, Update, Delete) kialakítása - Németh Ildikó
 
 namespace App\Http\Controllers;
 

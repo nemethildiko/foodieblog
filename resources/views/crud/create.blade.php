@@ -1,3 +1,6 @@
+
+{{-- CRUD új étel létrehozása oldal - Németh Ildikó --}}
+
 @extends('layouts.main')
 
 @section('title', 'Új étel')

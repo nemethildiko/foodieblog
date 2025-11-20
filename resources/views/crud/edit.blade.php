@@ -1,3 +1,6 @@
+
+{{-- CRUD étel szerkesztése oldal - Németh Ildikó --}}
+
 @extends('layouts.main')
 
 @section('title', 'Étel szerkesztése')
