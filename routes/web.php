@@ -9,8 +9,9 @@ use App\Http\Controllers\UzenetController;
 use App\Http\Controllers\DiagramController;
 use App\Http\Controllers\CrudController;
 use App\Http\Controllers\HomeController;
-// ----------------------------------------------------------
-// AUTENTIKÁCIÓS RÉSZ – KÉSZÍTETTE: Németh Ildikó
+// -----------------------------------------------------
+// // Autentikációs útvonalak és szerepkörök kialakítása - Németh Ildikó
+
 // Feladat: user/admin szerepkörök kezelése
 // ----------------------------------------------------------
 
