@@ -45,19 +45,51 @@
 
 
                 <nav id="menu">
-                    <header class="major">
-                        <h2>Menü</h2>
-                    </header>
-                    <ul>
-                        <li><a href="{{ route('home') }}">Főoldal</a></li>
-                        <li><a href="{{ route('etelek.index') }}">Adatbázis</a></li>
-                        <li><a href="{{ route('kapcsolat') }}">Kapcsolat</a></li>
-                        <li><a href="{{ route('uzenetek.index') }}">Üzenetek</a></li>
-                        <li><a href="{{ route('diagram.index') }}">Diagram</a></li>
-                        <li><a href="{{ route('crud.index') }}">CRUD</a></li>
-                        <li><a href="{{ route('admin.index') }}">Admin</a></li>
-                    </ul>
-                </nav>
+    <header class="major">
+        <h2>Menü</h2>
+    </header>
+    <ul>
+
+        <li><a href="{{ route('home') }}">Főoldal</a></li>
+        <li><a href="{{ route('etelek.index') }}">Adatbázis</a></li>
+        <li><a href="{{ route('kapcsolat') }}">Kapcsolat</a></li>
+        <li><a href="{{ route('diagram.index') }}">Diagram</a></li>
+        <li><a href="{{ route('crud.index') }}">CRUD</a></li>
+
+
+        @auth
+            {{-- USER menü (nem admin) --}}
+            @if(auth()->user()->role === 'user')
+                <li><a href="{{ route('uzenetek.index') }}">Üzenetek</a></li>
+            @endif
+
+            {{-- ADMIN menü --}}
+            @if(auth()->user()->role === 'admin')
+                <li><a href="{{ route('admin.index') }}">Admin</a></li>
+            @endif
+
+            {{-- Kijelentkezés --}}
+            <li>
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button style="background:none;border:none;color:#fff;padding:0;margin:0;">
+                        Kijelentkezés
+                    </button>
+                </form>
+            </li>
+
+        @endauth
+
+
+        {{-- 🔓 Vendég (nincs bejelentkezve) --}}
+        @guest
+            <li><a href="{{ route('login') }}">Bejelentkezés</a></li>
+            <li><a href="{{ route('register') }}">Regisztráció</a></li>
+        @endguest
+
+    </ul>
+</nav>
+
 
             </div>
         </div>
